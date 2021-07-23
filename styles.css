@@ -26,21 +26,31 @@ nav li{
     color: white;
 }
 
-  .mainPic {
+.mainPic {
     background-image: url('pics/20210409_175821(4).jpg');
     margin-top: 58px;
     background-size: cover;
-    background-position: 50% 100% ;
-    height: 50vh;
+    background-position: 20% 100% ;
+    height: 55vh;
 }
-  @media only screen and (max-width: 800px) { /*Mobile*/
+@media screen and (min-width: 600px) { /*Desktop*/
     .mainPic {
-            display: block;
-            background-image: url('pics/dramaticTrip.png');
-            background-position: 20% 100% ;
-            height: auto;
-            background-size: 50%;
-          }
-        
+        background-image: url('pics/20210409_175821(4).jpg');
+        background-size: cover;
+        height: 50vh;
     }
-  
+  }
+.title{
+    background-color: rgba(0, 0, 0, 0.575); 
+    width: 50vw; 
+    margin: 0 auto;
+    font-size: .7em;
+    font-weight: 500;
+    
+}
+@media screen and (min-width: 600px) { /*Desktop*/
+    .title {
+    font-size: 1.1em;
+    font-weight: 400;
+    }
+  }
