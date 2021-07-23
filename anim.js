@@ -9,7 +9,7 @@ $(".goAbout").click(function() {
         'slow');
 });$(".goPortfolio").click(function() {
     $('html,body').animate({
-        scrollTop: $(".porfolio").offset().top},
+        scrollTop: $(".portfolio").offset().top},
         'slow');
 });$(".goContact").click(function() {
     $('html,body').animate({
