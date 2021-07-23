@@ -1,2 +1,2 @@
-# porfolio
-porfolio for Halley Gissendanner
+# portfolio
+portfolio for Halley Gissendanner
