@@ -17,8 +17,8 @@ h4{
 .contact{
     background-color: rgb(255, 255, 255);
 }
-#bg, nav{
-    background-color: rgb(45, 87, 49);
+.bg, nav{
+    background-color: rgb(186, 231, 213);
 }
 nav li{
     font-size: 1.1em;
