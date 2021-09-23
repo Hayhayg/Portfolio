@@ -18,79 +18,138 @@ h4{
     background-color: rgb(255, 255, 255);
 }
 .bg, nav{
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(238, 238, 238);
 }
 nav li{
     font-size: 1.1em;
     font-weight: 500;
-    color: white;
 }
 
 .mainPic {
-    background-image: url('pics/20210525_182412_capture.jpg');
+    background-image: url('pics/20210525_182412_capture.png');
     background-size: cover;
-    position: relative;
+    background-position: 40% 10% ;
     height: 55vh;
+    position: relative;
 
 }
 @media screen and (min-width: 600px) { /*Desktop*/
     .mainPic {
-        background-image: url('pics/20210525_182412_capture (2).jpg');
+        background-image: url('pics/20210525_182412_capture.png');
         height: 60vh;
+        background-position: 0% 10% ;
+
     }
   }
 .title{
     background-color: rgba(0, 0, 0, 0.637);
     width: 60vw;
-    height: 32vh;
+    height: 30vh;
     position: relative;
+   /*
     top: 24%;
     left: 14%;
+    */
     font-size: .65em;
 }
 @media screen and (min-width: 600px) { /*Desktop*/
 .title{
     background-color: rgba(0, 0, 0, 0.637);
-    width: 50vw;
-    height: 20vh;
+    width: 45vw;
+    height: 23vh;
     position: relative;
+    
+    /*
     top: 24%;
     left: 23%;
+    */
     font-size: 1em;
 
 }
 }
 
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
 .skills .progress {
     height: 60px;
     display: block;
     background: none;
     border-radius: 0;
   }
-  
   .skills .progress .skill {
-    padding: 0;
-    margin: 0 0 6px 0;
+    padding: 10px 0;
+    margin: 0;
     text-transform: uppercase;
     display: block;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
-    color: #050d18;
+    color: #45505b;
   }
-  
   .skills .progress .skill .val {
     float: right;
     font-style: normal;
   }
-  
   .skills .progress-bar-wrap {
-    background: #dce8f8;
-    height: 10px;
+    background: #f2f3f5;
   }
-  
   .skills .progress-bar {
     width: 1px;
     height: 10px;
-    transition: .9s;
-    background-color: #149ddd;
+    transition: 0.9s;
+    background-color: #0563bb;
+  }
+  
+  /*--------------------------------------------------------------
+  # Resume
+  --------------------------------------------------------------*/
+  .resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #45505b;
+  }
+  .resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #0563bb;
+    position: relative;
+  }
+  .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #0563bb;
+    margin-bottom: 10px;
+  }
+  .resume .resume-item h5 {
+    font-size: 16px;
+    background: #f7f8f9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .resume .resume-item ul {
+    padding-left: 20px;
+  }
+  .resume .resume-item ul li {
+    padding-bottom: 10px;
+  }
+  .resume .resume-item:last-child {
+    padding-bottom: 0;
+  }
+  .resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #0563bb;
   }
