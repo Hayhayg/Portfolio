@@ -29,13 +29,13 @@ nav li{
 .mainPic {
     background-image: url('pics/20210525_182412_capture.jpg');
     background-size: cover;
+    position: relative;
     height: 55vh;
-    object-position: top;
 
 }
 @media screen and (min-width: 600px) { /*Desktop*/
     .mainPic {
-        background-image: url('pics/20210525_182412_capture.jpg');
+        background-image: url('pics/20210525_182412_capture (2).jpg');
         height: 60vh;
     }
   }
