@@ -28,7 +28,7 @@ nav li{
 .mainPic {
     background-image: url('pics/20210525_182412_capture.png');
     background-size: cover;
-    background-position: 40% 10% ;
+    background-position: 15% 10% ;
     height: 55vh;
     position: relative;
 
@@ -38,6 +38,7 @@ nav li{
         background-image: url('pics/20210525_182412_capture.png');
         height: 60vh;
         background-position: 0% 10% ;
+    
 
     }
   }
