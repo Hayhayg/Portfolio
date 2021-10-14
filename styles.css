@@ -48,6 +48,7 @@ nav li{
     width: 60vw;
     height: 22vh;
     position: relative;
+    padding-top: 3%;
    /*
     top: 24%;
     left: 14%;
@@ -60,7 +61,7 @@ nav li{
     width: 45vw;
     height: 23vh;
     position: relative;
-    
+
     /*
     top: 24%;
     left: 23%;
