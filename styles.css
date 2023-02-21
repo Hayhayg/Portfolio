@@ -18,7 +18,7 @@ h4{
     background-color: rgb(255, 255, 255);
 }
 .bg, nav{
-    background-color: rgba(114, 182, 194, 0.404);
+    background-color: rgba(76, 121, 129, 0.404);
 }
 nav li{
     font-size: 1.1em;
@@ -46,7 +46,7 @@ nav li{
 .title{
     background-color: rgba(0, 0, 0, 0.637);
     width: 60vw;
-    height: 22vh;
+    height: 13vh;
     position: relative;
     padding-top: 3%;
    /*
@@ -59,7 +59,7 @@ nav li{
 .title{
     background-color: rgba(0, 0, 0, 0.637);
     width: 45vw;
-    height: 23vh;
+    height: 19vh;
     position: relative;
 
     /*
